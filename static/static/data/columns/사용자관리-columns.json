@@ -1,0 +1,119 @@
+[
+  {
+    "binding": "select",
+    "header": "선택",
+    "width": 50,
+    "cellType": "checkbox",
+    "frozen": true
+  },
+  {
+    "binding": "userId",
+    "header": "사용자ID",
+    "width": 100,
+    "isReadOnly": true
+  },
+  {
+    "binding": "userName",
+    "header": "사용자명",
+    "width": 100,
+    "isReadOnly": true
+  },
+  {
+    "binding": "divisionName",
+    "header": "사업부명",
+    "width": 100,
+    "isReadOnly": true
+  },
+  {
+    "binding": "divisionCode",
+    "header": "사업부코드",
+    "width": 100,
+    "isReadOnly": true
+  },
+  {
+    "binding": "workType",
+    "header": "권한",
+    "width": 200,
+    "isReadOnly": true
+  },
+  {
+    "binding": "mySiteFlag",
+    "header": "My Site",
+    "width": 100,
+    "cellType": "combo",
+    "comboData":"Yes, No",
+    "isReadOnly": true
+  },
+  {
+    "binding": "wmsFlag",
+    "header": "WMS권한",
+    "width": 100,
+    "cellType": "combo",
+    "comboData":"Yes, No",
+    "isReadOnly": true
+  },
+  {
+    "binding": "budgetFlag",
+    "header": "예산권한",
+    "width": 200,
+    "cellType": "combo",
+    "comboData":"Yes, No",
+    "isReadOnly": true
+  },
+  {
+    "binding": "grFlag",
+    "header": "입고권한",
+    "width": 100,
+    "cellType": "combo",
+    "comboData":"Yes, No",
+    "isReadOnly": true
+  },
+  {
+    "binding": "financialFlag",
+    "header": "정산권한",
+    "width": 100,
+    "cellType": "combo",
+    "comboData":"Yes, No",
+    "isReadOnly": true
+  },
+  {
+    "binding": "telNum",
+    "header": "전화번호",
+    "width": 200,
+    "isReadOnly": true
+  },
+  {
+    "binding": "phoneNum",
+    "header": "휴대폰번호",
+    "width": 200,
+    "isReadOnly": true
+  },
+  {
+    "binding": "positionName",
+    "header": "직급",
+    "width": 200,
+    "isReadOnly": true
+  },
+  {
+    "binding": "progressCode",
+    "header": "상태",
+    "width": 200,
+    "cellType": "combo",
+    "comboData":"신청, 승인, 반려",
+    "isReadOnly": true
+  },
+  {
+    "binding": "blockFlag",
+    "header": "Blocking",
+    "width": 200,
+    "cellType": "combo",
+    "comboData":"Yes, No",
+    "isReadOnly": true
+  },
+  {
+    "binding": "blockReason",
+    "header": "사유",
+    "width": 200,
+    "isReadOnly": true
+  }
+]

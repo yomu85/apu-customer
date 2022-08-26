@@ -1,0 +1,32 @@
+[
+  {
+    "name": "환경설정",
+    "path": "/admin",
+    "href": "/admin/budget",
+    "subMenus": [
+      {
+        "name": "예산관리",
+        "href": "/admin/budget"
+      }
+    ]
+  },
+  {
+    "name": "주문관리",
+    "path": "/order",
+    "href": "/order/item-create",
+    "subMenus": [
+      {
+        "name": "상품조회",
+        "href": "/order/item-create"
+      },
+      {
+        "name": "장바구니",
+        "href": "/order/item-cart"
+      },
+      {
+        "name": "주문조회(취소)",
+        "href": "/order/item-update"
+      }
+    ]
+  }
+]

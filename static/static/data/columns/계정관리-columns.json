@@ -1,0 +1,46 @@
+[
+  {
+    "binding": "select",
+    "header": "선택",
+    "width": 40,
+    "cellType": "checkbox",
+    "frozen": true
+  },
+  {
+    "binding": "useStatus",
+    "header": "사용여부",
+    "width": 150,
+    "isReadOnly": true,
+    "required": true,
+    "cellType": "select-map",
+    "dataMap": [
+      {
+        "source": "USE",
+        "text": "사용"
+      },
+      {
+        "source": "UNUSE",
+        "text": "사용안함"
+      }
+    ],
+    "tooltip": "사용/사용안함"
+  },
+  {
+    "binding": "accountId",
+    "header": "계정ID",
+    "width": 100,
+    "isReadOnly": true
+  },
+  {
+    "binding": "accountCode",
+    "header": "계정코드",
+    "width": 150,
+    "required": true
+  },
+  {
+    "binding": "accountName",
+    "header": "계정명",
+    "width": 300,
+    "required": true
+  }
+]
