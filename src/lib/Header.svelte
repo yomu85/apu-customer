@@ -9,7 +9,7 @@ const menus = gnbData
 <header id="header">
   <div class="topmenu">
     <div class="util">
-      <a href="https://apuo.arong.bar/" class="btn btn-dark">Go 운영사</a>
+      <a href="https://apuo.arong.day/" class="btn btn-dark">Go 운영사</a>
     </div>
   </div>
   <div class="gnb_area">
